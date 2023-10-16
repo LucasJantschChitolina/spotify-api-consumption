@@ -3,7 +3,7 @@ import axios, { AxiosResponse } from "axios";
 const baseURL = "https://api.spotify.com/v1/";
 
 const accessToken =
-  "Bearer BQCzFNF2OS3XjYzszt214ScHkfic1BZZPTwM2nspBpnhdfYRCcyNYk2ifUzyD8cCIsXRFEhUsdShwXlh5JDvHZXVx6u1AhQR2KuUPz-gQDBnSHbTBxk";
+  "Bearer BQCbXKv_vsdk10VJJc2kK9eiwkPnnu70wVLvJ6Jzu0tNzAEfV97ucmEK-Cy_PvpFRzU2vjv0rLb9b1xvWNnTbPhxSQSeEnodniLyWJfk0SFlXrFgbPQ";
 
 const axiosInstance = axios.create({
   baseURL: baseURL,
