@@ -40,7 +40,7 @@ export const Main = () => {
   }, [searchValue]);
 
   return (
-    <main className="max-w-screen bg-zinc-700 p-8 space-y-8">
+    <main className="max-w-screen bg-zinc-700 p-8 space-y-8 ">
       <Input onChange={handleSearch} />
 
       {artist ? (

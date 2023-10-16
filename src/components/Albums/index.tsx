@@ -19,7 +19,7 @@ export const AlbumsComponent = (props: Artist) => {
       <p className="font-normal text-slate-200">Featured</p>
       <h2 className="text-3xl font-bold text-slate-100 mb-3">Albums</h2>
 
-      <div className="flex gap-4 py-4">
+      <div className="gap-4 py-4 grid grid-cols-2 md:flex">
         {albums?.slice(0, 8).map((item) => {
           return <AlbumItem {...item} key={item.id} />;
         })}

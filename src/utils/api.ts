@@ -1,8 +1,9 @@
 import axios, { AxiosResponse } from "axios";
 
 const baseURL = "https://api.spotify.com/v1/";
+
 const accessToken =
-  "Bearer BQBT0MxygsKGCKUVntR-UQ9TeknqXq06PJfaPZc5JLjpzPCT58B9PXtPLk-cf3Lo3UEqH-A9fqbKL3Edc4XXw0LlrfM4QFGyne-RfYzOHfqIw7LqzeM";
+  "Bearer BQCzFNF2OS3XjYzszt214ScHkfic1BZZPTwM2nspBpnhdfYRCcyNYk2ifUzyD8cCIsXRFEhUsdShwXlh5JDvHZXVx6u1AhQR2KuUPz-gQDBnSHbTBxk";
 
 const axiosInstance = axios.create({
   baseURL: baseURL,
